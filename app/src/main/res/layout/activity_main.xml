@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/layout_app"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="20dp"
+    tools:context="com.rosinante24.edittextlimitconfig.MainActivity">
+
+    <TextView
+        android:id="@+id/text_fetch"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:text="text fetch" />
+
+    <EditText
+        android:id="@+id/edit_text_cek_length"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="cek length" />
+
+    <Button
+        android:id="@+id/button_fetch"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="fetch" />
+
+</LinearLayout>
